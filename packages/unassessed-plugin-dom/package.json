@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "types": "index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "unassessed-types unexpected-plugin unexpected-dom --outputFile ./index.d.ts --templateFile ./templates/plugin.d.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
