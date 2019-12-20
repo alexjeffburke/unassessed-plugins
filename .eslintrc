@@ -1,0 +1,12 @@
+{
+  "extends": ["standard", "prettier", "prettier/standard"],
+  "plugins": ["import", "mocha"],
+  "rules": {
+    "import/no-unresolved": ["error", { "commonjs": true }],
+    "prefer-template": "error",
+    "prefer-const": "error",
+    "mocha/no-exclusive-tests": "error",
+    "mocha/no-nested-tests": "error",
+    "mocha/no-identical-title": "error"
+  }
+}
