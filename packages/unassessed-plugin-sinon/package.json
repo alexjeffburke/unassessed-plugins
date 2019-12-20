@@ -1,0 +1,23 @@
+{
+  "name": "@unassessed/plugin-sinon",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "unassessed-types unexpected-plugin unexpected-sinon --outputFile ./index.d.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "unassessed": "~0.2.0"
+  },
+  "dependencies": {
+    "unexpected-sinon": "~10.11.2"
+  },
+  "devDependencies": {
+    "sinon": "^7.5.0",
+    "unassessed": "~0.2.0"
+  }
+}
