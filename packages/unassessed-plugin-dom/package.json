@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build": "unassessed-types unexpected-plugin unexpected-dom --outputFile ./index.d.ts --templateFile ./templates/plugin.d.ts",
+    "docs": "typedoc --out ./documentation --includeDeclarations --excludeExternals --exclude templates/* .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -20,6 +21,7 @@
     "unexpected-dom": "~4.16.0"
   },
   "devDependencies": {
+    "typedoc": "^0.15.6",
     "unassessed": "~0.2.0"
   }
 }
