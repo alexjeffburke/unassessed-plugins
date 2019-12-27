@@ -6,3 +6,6 @@
 # Workspaces
 /packages/*/node_modules
 /packages/*/documentation
+
+# VS Code User Specific Settings
+/.vscode/settings.json
