@@ -11,7 +11,7 @@
     "lint": "eslint . && prettier --check '**/*.js'",
     "postinstall": "yarn workspaces run",
     "prepublishOnly": "yarn docs",
-    "postpublish": "gh-pages -d documentation",
+    "postpublish": "gh-pages -d documentation -t",
     "release": "lerna publish",
     "test": "mocha"
   },
