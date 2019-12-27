@@ -12,6 +12,7 @@
     "postinstall": "yarn workspaces run",
     "prepublishOnly": "yarn docs",
     "postpublish": "gh-pages -d documentation",
+    "release": "lerna publish",
     "test": "mocha"
   },
   "keywords": [],
