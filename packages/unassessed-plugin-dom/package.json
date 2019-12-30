@@ -15,13 +15,13 @@
   "author": "",
   "license": "MIT",
   "peerDependencies": {
-    "unassessed": "~0.2.0"
+    "unassessed": "~0.3.0"
   },
   "dependencies": {
     "unexpected-dom": "~4.16.0"
   },
   "devDependencies": {
     "typedoc": "^0.15.6",
-    "unassessed": "~0.2.0"
+    "unassessed": "~0.3.0"
   }
 }
