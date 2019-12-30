@@ -20,18 +20,18 @@ declare module "unassessed" {
     toContain(value: DOMElement|object|string): Result
     toSatisfy(value: DOMIgnoreComment|DOMElement|DOMTextNode|DOMDocumentFragment|DOMDocument|any[]|DOMNodeList|DOMComment): Result
     toExhaustivelySatisfy(value: DOMIgnoreComment|DOMElement|DOMTextNode|DOMDocumentFragment|DOMDocument|any[]|DOMNodeList|DOMComment): Result
-    toHaveClass(value: any[]|string): Result
-    toHaveClasses(value: any[]|string): Result
-    toOnlyHaveClass(value: any[]|string): Result
-    toOnlyHaveClasses(value: any[]|string): Result
-    notToHaveClass(value: any[]|string): Result
-    notToHaveClasses(value: any[]|string): Result
-    toOnlyHaveAttribute(value: any[]|object): Result
-    toOnlyHaveAttributes(value: any[]|object): Result
-    toHaveAttribute(value: any[]|object): Result
-    toHaveAttributes(value: any[]|object): Result
-    notToHaveAttribute(value: any[]): Result
-    notToHaveAttributes(value: any[]): Result
+    toHaveClass(value: string[]|string): Result
+    toHaveClasses(value: string[]|string): Result
+    toOnlyHaveClass(value: string[]|string): Result
+    toOnlyHaveClasses(value: string[]|string): Result
+    notToHaveClass(value: string[]|string): Result
+    notToHaveClasses(value: string[]|string): Result
+    toOnlyHaveAttribute(value: string[]|object): Result
+    toOnlyHaveAttributes(value: string[]|object): Result
+    toHaveAttribute(value: string[]|object): Result
+    toHaveAttributes(value: string[]|object): Result
+    notToHaveAttribute(value: string[]): Result
+    notToHaveAttributes(value: string[]): Result
     toHaveNoChild(): Result
     toHaveNoChildren(): Result
     toHaveChild(): Result

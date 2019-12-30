@@ -8,7 +8,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "unassessed-types unexpected-plugin unexpected-dom --outputFile ./index.d.ts --templateFile ./templates/plugin.d.ts",
+    "build": "unassessed-types unexpected-plugin unexpected-dom --outputFile ./index.d.ts --templateFile ./templates/plugin.d.ts --typesMap '{\"array\":\"string[]\"}'",
     "docs": "typedoc --out ./documentation --includeDeclarations --excludeExternals --exclude templates/* .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
