@@ -15,7 +15,7 @@
   "author": "",
   "license": "MIT",
   "peerDependencies": {
-    "unassessed": "~0.2.0"
+    "unassessed": "~0.2.0 || ~0.3.0"
   },
   "dependencies": {
     "unexpected-sinon": "~10.11.2"
@@ -23,6 +23,6 @@
   "devDependencies": {
     "sinon": "^7.5.0",
     "typedoc": "^0.15.6",
-    "unassessed": "~0.2.0"
+    "unassessed": "~0.3.0"
   }
 }
