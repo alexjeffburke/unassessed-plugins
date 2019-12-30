@@ -5820,13 +5820,13 @@ umask@^1.1.0:
   resolved "https://registry.yarnpkg.com/umask/-/umask-1.1.0.tgz#f29cebf01df517912bb58ff9c4e50fde8e33320d"
   integrity sha1-8pzr8B31F5ErtY/5xOUP3o4zMg0=
 
-unassessed@~0.2.0:
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/unassessed/-/unassessed-0.2.4.tgz#ce7678e91526d017f10a5b5854021e17cf97fc61"
-  integrity sha512-ghgZjsayd1vOzUONer2W5Xjm4DmUNzjYlI5y01xqQwWNREnlUx9nQpmM9pla9T4Ul8cVuSYrDr2c8D76h2SyaA==
+unassessed@~0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/unassessed/-/unassessed-0.3.0.tgz#1c01d9942443cdfba0fb9988c9c6c6930f5dae0a"
+  integrity sha512-knZKFTISLgdwH4NMV4fhtQb6EBtnZT4OQ6Tp6QXFLuorgbQDSVCI9psVyHMbE1UvckAhw/5O2Ud6SJESszdMSw==
   dependencies:
     resolve-from "^5.0.0"
-    unexpected "~11.9.0"
+    unexpected "~11.10.0"
     yargs "^15.0.2"
 
 underscore@>=1.8.3, underscore@^1.9.1:
@@ -5852,10 +5852,10 @@ unexpected-sinon@~10.11.2:
   resolved "https://registry.yarnpkg.com/unexpected-sinon/-/unexpected-sinon-10.11.2.tgz#43005d659068c393964397168271597757d62176"
   integrity sha512-N2KIKPweTVs6AK8cDKQTUwu0fGWyGt+cI/UJZ/eltAyOKgsHL9eILttdGfpZjI/iMYcHcbtUwIlXoHfmh6EcBw==
 
-unexpected@~11.9.0:
-  version "11.9.0"
-  resolved "https://registry.yarnpkg.com/unexpected/-/unexpected-11.9.0.tgz#87200d345a33b0e179680b400f9f3ab447631b4b"
-  integrity sha512-3S+4JMuKf5XI9OSHGLCRG1KxBKcgwwGsCUPYD0rlA9aUJgn8S+8BDRC/okq2mkSSaXxnJmTiZWBwqI+uTukrRQ==
+unexpected@~11.10.0:
+  version "11.10.0"
+  resolved "https://registry.yarnpkg.com/unexpected/-/unexpected-11.10.0.tgz#91ad1871e7fdf4d0f35a4b169389d6d34ab88ac5"
+  integrity sha512-gCodsbUKsrVmnwPFw/4+NEJ62QgAQjnk9HO8XG+5M10+kXlzUaA76eUMQ3kSjpM3CpYjHtjRl1ZTdMdjKTGExA==
   dependencies:
     array-changes "3.0.1"
     array-changes-async "3.0.1"
