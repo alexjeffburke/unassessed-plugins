@@ -5820,10 +5820,10 @@ umask@^1.1.0:
   resolved "https://registry.yarnpkg.com/umask/-/umask-1.1.0.tgz#f29cebf01df517912bb58ff9c4e50fde8e33320d"
   integrity sha1-8pzr8B31F5ErtY/5xOUP3o4zMg0=
 
-unassessed@~0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/unassessed/-/unassessed-0.3.0.tgz#1c01d9942443cdfba0fb9988c9c6c6930f5dae0a"
-  integrity sha512-knZKFTISLgdwH4NMV4fhtQb6EBtnZT4OQ6Tp6QXFLuorgbQDSVCI9psVyHMbE1UvckAhw/5O2Ud6SJESszdMSw==
+unassessed@~0.3.0, unassessed@~0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/unassessed/-/unassessed-0.3.1.tgz#40525802d4abc0d6ffc926da625257a3951aeee2"
+  integrity sha512-GC3w8xAdw08nhx1qvzBifvOlzD7S/mo37G8oDeSeQsLsICjWdE45DoqKhTML4yGNRyg0WaRrrAX047ge4bU1fQ==
   dependencies:
     resolve-from "^5.0.0"
     unexpected "~11.10.0"

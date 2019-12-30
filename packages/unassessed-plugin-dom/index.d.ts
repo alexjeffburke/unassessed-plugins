@@ -16,8 +16,8 @@ declare module "unassessed" {
   interface Assertions {
     toMatch(value: string): Result
     notToMatch(value: string): Result
-    notToContain(value: DOMElement|object|string): Result
-    toContain(value: DOMElement|object|string): Result
+    notToContain(value: DOMElement|object): Result
+    toContain(value: DOMElement|object): Result
     toSatisfy(value: DOMIgnoreComment|DOMElement|DOMTextNode|DOMDocumentFragment|DOMDocument|any[]|DOMNodeList|DOMComment): Result
     toExhaustivelySatisfy(value: DOMIgnoreComment|DOMElement|DOMTextNode|DOMDocumentFragment|DOMDocument|any[]|DOMNodeList|DOMComment): Result
     toHaveClass(value: string[]|string): Result
@@ -26,12 +26,12 @@ declare module "unassessed" {
     toOnlyHaveClasses(value: string[]|string): Result
     notToHaveClass(value: string[]|string): Result
     notToHaveClasses(value: string[]|string): Result
-    toOnlyHaveAttribute(value: string[]|object): Result
-    toOnlyHaveAttributes(value: string[]|object): Result
-    toHaveAttribute(value: string[]|object): Result
-    toHaveAttributes(value: string[]|object): Result
-    notToHaveAttribute(value: string[]): Result
-    notToHaveAttributes(value: string[]): Result
+    toOnlyHaveAttribute(value: string[]|object|string): Result
+    toOnlyHaveAttributes(value: string[]|object|string): Result
+    toHaveAttribute(value: string[]|object|string): Result
+    toHaveAttributes(value: string[]|object|string): Result
+    notToHaveAttribute(value: string[]|string): Result
+    notToHaveAttributes(value: string[]|string): Result
     toHaveNoChild(): Result
     toHaveNoChildren(): Result
     toHaveChild(): Result
